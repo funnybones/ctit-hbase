@@ -35,7 +35,7 @@ public class HBaseClient {
 
     // This instantiates an HTable object that connects you to
     // the "myLittleHBaseTable" table.
-    HTable table = new HTable(config, "myLittleHBaseTable");
+    HTable table = new HTable(config, args[0]);
 
     // To add to a row, use Put. A Put constructor takes the name of the row
     // you want to insert into as a byte array. In HBase, the Bytes class has
