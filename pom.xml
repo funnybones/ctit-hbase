@@ -18,8 +18,8 @@
     <hadoop.releases.repo>https://repository.cloudera.com/content/repositories/releases/</hadoop.releases.repo>
     <hadoop.snapshots.repo>https://repository.cloudera.com/content/repositories/snapshots/</hadoop.snapshots.repo>
 
-    <hadoop.version>2.5.0-cdh5.3.2</hadoop.version>
-    <hbase.version>0.98.6-cdh5.3.2</hbase.version>
+    <hadoop.version>2.6.0-cdh5.9.0</hadoop.version>
+    <hbase.version>1.2.0-cdh5.9.0</hbase.version>
 
     <junit.version>4.8.1</junit.version>
 
